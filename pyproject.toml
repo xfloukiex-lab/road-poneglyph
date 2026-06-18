@@ -1,0 +1,42 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "road-poneglyph"
+version = "0.1.0"
+description = "Road Poneglyph — a Grand Line MCP server."
+readme = "README.md"
+requires-python = ">=3.10"
+license = "Apache-2.0"
+authors = [{ name = "VektorGeist LLC", email = "floukie@vektorgeist.com" }]
+maintainers = [{ name = "VektorGeist LLC", email = "floukie@vektorgeist.com" }]
+keywords = ["mcp", "mcp-server", "model-context-protocol", "claude", "claude-code", "ai-agents"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Programming Language :: Python :: 3.14",
+    "Topic :: Software Development :: Libraries",
+]
+dependencies = ["mcp>=1.0"]
+
+[project.optional-dependencies]
+dev = ["pytest>=8.0"]
+
+[project.scripts]
+road-poneglyph = "road_poneglyph.server:main"
+
+[project.urls]
+Homepage = "https://github.com/xfloukiex-lab/road-poneglyph"
+Repository = "https://github.com/xfloukiex-lab/road-poneglyph"
+Issues = "https://github.com/xfloukiex-lab/road-poneglyph/issues"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

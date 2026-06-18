@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <!-- Original art. Generic carved stone tablet; evokes "poneglyph" without copying any official design. -->
+  <rect width="128" height="128" rx="24" fill="#1b2330"/>
+  <g>
+    <!-- stone slab -->
+    <path d="M40 24 h40 l12 14 v66 a4 4 0 0 1-4 4 H36 a4 4 0 0 1-4-4 V40 z" fill="#5a6472" stroke="#39424f" stroke-width="3"/>
+    <path d="M80 24 l12 14 H80 z" fill="#454e5b"/>
+    <!-- carved glyph marks (abstract, original) -->
+    <g stroke="#e23b4e" stroke-width="3" stroke-linecap="round" fill="none" opacity="0.95">
+      <path d="M44 46 h28"/>
+      <path d="M44 58 h20"/>
+      <circle cx="80" cy="58" r="4"/>
+      <path d="M44 70 h32"/>
+      <path d="M52 82 v14"/>
+      <path d="M44 96 h36"/>
+      <path d="M68 82 l8 8 l-8 8"/>
+    </g>
+  </g>
+</svg>
