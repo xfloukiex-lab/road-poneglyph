@@ -1,7 +1,7 @@
 {
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "io.github.xfloukiex-lab/road-poneglyph",
-  "description": "Reviews a plan for what's missing \u2014 unstated assumptions, omitted technical risks, and execution blind spots (a structured pre-mortem).",
+  "description": "Finds a plan's blind spots: unstated assumptions, omitted risks, and missing pieces.",
   "version": "0.1.0",
   "repository": {
     "url": "https://github.com/xfloukiex-lab/road-poneglyph",
