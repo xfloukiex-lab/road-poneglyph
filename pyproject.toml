@@ -3,7 +3,7 @@ requires = ["setuptools>=68", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "road-poneglyph"
+name = "road-poneglyph-mcp"
 version = "0.1.0"
 description = "Road Poneglyph — a Grand Line MCP server."
 readme = "README.md"
